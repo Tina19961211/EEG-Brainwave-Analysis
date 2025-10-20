@@ -1,0 +1,23 @@
+This project is compatible with Python 3.9+.
+
+⚖️ License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License
+.
+You are free to share and adapt the material, provided proper credit is given.
+
+📚 Citation
+
+If you use this project or adapt the code, please cite:
+
+Tina (2025). Brain Waves: EEG and Psychiatric Disorders. OSF Dataset: https://osf.io/8bsvr/
+
+Licensed under CC BY 4.0.
+also the following libraries :
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+jupyter
