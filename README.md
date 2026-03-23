@@ -13,21 +13,21 @@ If you or someone you know is struggling with mental health, **professional supp
 
 ## What is This Research About?
 
-This notebook analyzes **EEG data from 64 individuals**—both people with and without psychiatric conditions—to identify distinct brain wave signatures associated with different mental health diagnoses.
+This notebook analyzes **EEG data from 64 individuals**—both people with and without psychiatric conditions, to identify distinct brain wave signatures associated with different mental health diagnoses.
 
 ### The Big Picture
 
-Brain wave patterns can serve as **biomarkers** for psychiatric conditions—like a fingerprint unique to certain disorders. Understanding these patterns helps:
+Brain wave patterns can serve as **biomarkers** for psychiatric conditions, like a fingerprint unique to certain disorders. Understanding these patterns helps:
 
-✅ **Improve Diagnosis** - Support clinical assessment (never replace it)  
-✅ **Advance Research** - Understand the neurobiology of mental health  
-✅ **Personalize Treatment** - Eventually tailor interventions to individual brain patterns  
-✅ **Reduce Stigma** - Show that psychiatric conditions have measurable biological bases  
-✅ **Monitor Progress** - Track brain changes during treatment  
+✅ **Improve Diagnosis** : Support clinical assessment (never replace it)  
+✅ **Advance Research** : Understand the neurobiology of mental health  
+✅ **Personalize Treatment** : Eventually tailor interventions to individual brain patterns  
+✅ **Reduce Stigma** : Show that psychiatric conditions have measurable biological bases  
+✅ **Monitor Progress** : Track brain changes during treatment  
 
 ### What This Is NOT
 
-🚫 This is **NOT** a diagnostic tool—EEG alone cannot diagnose psychiatric conditions  
+🚫 This is **NOT** a diagnostic tool , EEG alone cannot diagnose psychiatric conditions  
 🚫 This is **NOT** a substitute for professional evaluation and treatment  
 🚫 This is **NOT** intended to label or stereotype people  
 🚫 This is **NOT** medical advice  
@@ -41,7 +41,7 @@ Brain wave patterns can serve as **biomarkers** for psychiatric conditions—lik
 This research examines brain wave patterns across these psychiatric conditions:
 
 ### 🟢 **Healthy Control Group**
-The baseline—people without diagnosed psychiatric conditions. Their EEG helps us understand what "typical" looks like.
+The baseline, people without diagnosed psychiatric conditions. Their EEG helps us understand what "typical" looks like.
 
 ### 🔴 **Addictive Disorder**
 **What it includes:** Alcohol use disorder, substance abuse, behavioral addictions  
@@ -61,7 +61,7 @@ The baseline—people without diagnosed psychiatric conditions. Their EEG helps 
 ### 🟡 **Obsessive-Compulsive Disorder (OCD)**
 **What it includes:** Intrusive thoughts, compulsive behaviors  
 **Brain pattern:** Often shows overactive error-detection circuits  
-**Why it matters:** Not about being "neat or organized"—it's genuinely distressing
+**Why it matters:** Not about being "neat or organized", it's genuinely distressing
 
 ### ⚫ **Schizophrenia Spectrum**
 **What it includes:** Schizophrenia, psychotic symptoms  
@@ -71,11 +71,11 @@ The baseline—people without diagnosed psychiatric conditions. Their EEG helps 
 ### 🟠 **Anxiety Disorder**
 **What it includes:** Generalized anxiety, panic disorder, phobias  
 **Brain pattern:** Often shows hyperactive threat-detection systems  
-**Why it matters:** More than worry—involves real changes in brain chemistry and function
+**Why it matters:** More than worry , involves real changes in brain chemistry and function
 
 ---
 
-## Understanding Your Data
+## Understanding Data
 
 ### Dataset Overview
 
@@ -127,11 +127,11 @@ pip install -r requirements.txt
 ```
 
 **Required packages:**
-- `pandas` - Data handling
-- `numpy` - Numerical computing
-- `scikit-learn` - Machine learning & statistical analysis
-- `matplotlib` & `seaborn` - Visualization
-- `scipy` - Statistical tests
+- `pandas` : Data handling
+- `numpy` : Numerical computing
+- `scikit-learn` : Machine learning & statistical analysis
+- `matplotlib` & `seaborn` : Visualization
+- `scipy` : Statistical tests
 
 ### Running the Notebook
 
@@ -173,10 +173,10 @@ Brings in EEG data and examines basic information:
 
 ### 📊 **Section 4: Demographic Analysis**
 Visualizes who's in the study:
-- **Age distribution** - Is it balanced across groups?
-- **Sex distribution** - Gender representation
-- **Education levels** - Could this affect brain patterns?
-- **IQ distribution** - Baseline cognitive ability
+- **Age distribution** : Is it balanced across groups?
+- **Sex distribution** : Gender representation
+- **Education levels** : Could this affect brain patterns?
+- **IQ distribution** : Baseline cognitive ability
 
 **Health context:** These factors can influence EEG patterns, so researchers track them.
 
@@ -290,11 +290,11 @@ Showing psychiatric conditions have measurable biological signatures helps:
 🚫 Individual brain patterns (this is group-level research)  
 
 ### Real-World Considerations
-- **Sample is small** (64 people) - needs validation on larger groups
-- **Cross-sectional** - we see people at one point, not how they change
-- **EEG measures cortical activity** - miss deeper brain structures
-- **Group averages** - your personal pattern may differ from group average
-- **Medication effects** - many participants likely on psychiatric medications, which affect EEG
+- **Sample is small** (64 people) : needs validation on larger groups
+- **Cross-sectional** : we see people at one point, not how they change
+- **EEG measures cortical activity** : miss deeper brain structures
+- **Group averages** : your personal pattern may differ from group average
+- **Medication effects** : many participants likely on psychiatric medications, which affect EEG
 
 ---
 
@@ -357,9 +357,9 @@ If you or someone you know needs support:
 
 ### Top Predictive Features
 Most important EEG measurements:
-1. **COH.D.beta.a.FP1.b.FP2** - Coherence between frontal poles in beta range
-2. **COH.B.theta.m.T5.n.P3** - Coherence between temporal and parietal in theta
-3. **COH.B.theta.a.FP1.b.FP2** - Frontal theta coherence
+1. **COH.D.beta.a.FP1.b.FP2** : Coherence between frontal poles in beta range
+2. **COH.B.theta.m.T5.n.P3** : Coherence between temporal and parietal in theta
+3. **COH.B.theta.a.FP1.b.FP2** : Frontal theta coherence
 
 **What this means:** Frontal connectivity in specific frequency bands best distinguishes groups.
 
