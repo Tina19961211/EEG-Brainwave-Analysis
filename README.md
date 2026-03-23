@@ -5,7 +5,7 @@
 
 ## A Compassionate Note
 
-Mental health conditions are **not character flaws**. They are medical conditions that affect millions of people worldwide. This research explores how brain wave patterns differ across various psychiatric conditions - not to judge or label, but to better understand the biological basis of mental health challenges and ultimately improve care.
+Mental health conditions are **not character flaws**. They are medical conditions that affect millions of people worldwide. This research explores how brain wave patterns differ across various psychiatric conditions , not to judge or label, but to better understand the biological basis of mental health challenges and ultimately improve care.
 
 If you or someone you know is struggling with mental health, **professional support is available and makes a real difference.** See resources at the end of this guide.
 
@@ -13,7 +13,7 @@ If you or someone you know is struggling with mental health, **professional supp
 
 ## What is This Research About?
 
-This notebook analyzes **EEG data from 64 individuals**—both people with and without psychiatric conditions, to identify distinct brain wave signatures associated with different mental health diagnoses.
+This notebook analyzes **EEG data from 64 individuals** , both people with and without psychiatric conditions, to identify distinct brain wave signatures associated with different mental health diagnoses.
 
 ### The Big Picture
 
